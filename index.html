@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <title>Bookmark</title>
+        <link rel="icon" href="images/bookmark.png">
+        <meta content="wasf el 7aga" name="descriotion" />
+        <meta name="keywords" content>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+    
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="css/media.css">
+    </head>
+    <body>
+
+    <div class=" m-5">
+        <div class="container">
+            <div class=" text-center moon "> 
+                <h1><span>Bookmarker</span></h1>
+            </div>
+
+            <div class="sun">
+                <h2 class="text-center mt-4"><i class="bi bi-bookmark-fill"></i>Bookmark your favorite sites <i class="bi bi-bookmark-fill"></i></h2>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label konafa"><i class="fa-solid fa-book-bookmark dup p-1"></i> Site Name</label>
+                    <input type="email" class="form-control" oninput="validateForm(this)" id="BookmarkName" placeholder="BookmarkName">
+                    </div>
+    
+                    <div class="mb-3">
+
+                    <label for="exampleFormControlInput1" class="form-label konafa"><i class="fa-solid fa-link p-1"></i>Site URL</label>
+                    <input type="email" class="form-control " oninput="validateForm(this)" id="WebsiteURL" placeholder="WebsiteURL">
+                    </div>
+                <div class="sub text-center my-4">
+                <button class="rounded-2 border-black border-0 " id="addbtn" onclick="addText()">Submint</button>
+    
+                </div> 
+                    
+                
+            </div>
+        
+        </div>
+
+        
+        
+    </div>
+
+
+    <div class="container">
+      <table class="table text-center">
+        <thead>
+          <tr class="text-center">
+            <th class="POPO" scope="col">Index</th>
+            <th scope="col">Website Name</th>
+            <th scope="col">Visit</th>
+            <th scope="col">Delete</th>
+          </tr>
+        </thead>
+        <tbody id="web">
+           
+        </tbody>
+
+      </table >
+    </div>
+
+
+
+    
+
+
+      <div class="sit position-fixed d-none" id="book">
+        <div class="up rounded-2 position-absolute top-50 start-50 translate-middle p-3">
+
+          <div class="d-flex justify-content-between">
+            <div>
+              <i class="fa-solid fa-circle text-danger p-1"></i><i class="fa-solid fa-circle text-warning p-1"></i><i class="fa-solid fa-circle text-success p-1"></i>
+            </div>
+            <div>
+              <i class=" x fa-solid fa-xmark cllos" onclick="clos()"></i>
+            </div>
+          </div>
+
+
+          <h2 class="p-2 BREE">Site Name or Url is not valid, Please follow the rules below :</h2>
+          <p class="jon"> <i class="fa-regular fa-circle-right p-2 text-danger"></i>Site name must contain at least 3 characters</p>
+          <p class="jon"> <i class="fa-regular fa-circle-right p-2 text-danger"></i>Site URL must be a valid one</p>
+        </div>
+        
+      </div>
+
+    
+   
+    
+  
+    <script src="js/main.js"></script>
+   </body>    
+</html>

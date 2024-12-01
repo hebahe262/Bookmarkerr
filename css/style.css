@@ -1,0 +1,119 @@
+body{
+    background-color: #F7ECDE;
+    margin-left: 89px;
+    margin-right: 89px;
+}
+.moon h1{
+    font-family: "Pacifico", cursive;
+    font-weight: 500;
+    font-size: 50px;
+    margin-bottom: 50px;
+    color: #352e28;
+    
+}
+
+.moon span{
+position: relative;
+}
+.moon span::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 28%;
+    left: 0;
+    bottom: 11px;
+    background-color: #fec260;
+    z-index: -5;
+    transition: all 0.5s ease;
+}
+.moon span:hover::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 52%;
+    left: 0;
+    bottom: 11px;
+    background-color: #fec260;
+
+    
+}
+
+.konafa{
+    font-family: "PT Sans Caption", serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #212529;
+}
+.dup{
+   font-size: 17px;
+    font-size: 16px;
+    color: #212529;
+}
+
+
+.sun{
+        border-width: 2px 0 2px 0;
+        border-style: dotted;
+        border-color: #352e28;
+    }
+
+
+    .sun h2{
+        font-family: "Righteous", cursive;
+    font-size: 25px;
+    background: linear-gradient(to right, #3ca55c, #b5ac49);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+
+
+.sub button{
+    background-color: #D1512D;
+    padding:8px 50px;
+    color: white;
+}
+.sub button:hover{
+    background-color: #bb4120 ;
+    border:9px solid #a03315;
+}
+    
+
+.sit{
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.411);
+}
+.up{
+    background-color: #FFFFFF;
+    width: 38%;
+}
+.cllos{
+    cursor: pointer;
+}
+
+
+.table{
+    color: #F8F9FA;
+}
+
+.POPO{
+    font-family: "PT Sans Caption", serif;
+    font-weight: 700;
+    font-size: 16PX;
+}
+
+
+.BREE{
+    font-family: "Bree Serif", serif;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.x{
+    font-size: 30px;
+}
+
+
+.jon{
+    font-family: "PT Sans Caption", serif;
+}
+
